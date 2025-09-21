@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'Accept': 'application/json'
                 },
                 body: JSON.stringify({
-                    access_key: "60499b47-fede-434c-9a07-64386a38750d", // Replace with your actual key
+                    access_key: "***********", // Replace with your actual key
                     message: message,
                     subject: "New Message from Date Request Page"
                 })
@@ -138,4 +138,5 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error:', error);
         }
     });
+
 });
